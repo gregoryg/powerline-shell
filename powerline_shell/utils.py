@@ -52,7 +52,7 @@ class RepoStats(object):
     @property
     def dirty(self):
         qualifiers = [
-            self.new,
+            # GJG untracked files don't count # self.new,
             self.changed,
             self.staged,
             self.conflicted,

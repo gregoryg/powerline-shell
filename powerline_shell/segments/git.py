@@ -81,4 +81,4 @@ class Segment(ThreadedSegment):
         else:
             symbol = ""
         self.powerline.append(" " + symbol + self.branch + " ", fg, bg)
-        self.stats.add_to_powerline(self.powerline)
+        # GJG don't overcommunicate # self.stats.add_to_powerline(self.powerline)
