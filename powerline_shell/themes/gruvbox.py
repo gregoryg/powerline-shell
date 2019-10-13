@@ -65,7 +65,7 @@ class Color(DefaultColor):
     SSH_BG = faded_purple
     SSH_FG = light0
 
-    REPO_CLEAN_BG = faded_green
+    REPO_CLEAN_BG = 2 # GJG green
     REPO_CLEAN_FG = dark1
     REPO_DIRTY_BG = faded_orange
     REPO_DIRTY_FG = light0
